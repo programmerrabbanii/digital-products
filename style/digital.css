@@ -51,4 +51,66 @@
 .bannar-text p{
     font-size: 1;
 }
+.aboutText{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 44px;
+    font-size: 35px;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contentAbout h3{
+    font-size: 30px;
+}
+.contentAbout p{
+    font-size: 22px;
+}
+/* bannar section end */
+/* about section start */
+.services{
+    background-image: url('/img/background.png'), linear-gradient(#312f2f,#000);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 22px;
+    padding-bottom: 22px;
+}
+.serbox h3{
+    margin-top: 14px;
+
+}
+.servisbutton{
+    background-color: red;
+    color: white;
+    padding: 12px 19px ;
+    margin-top: 19px;
+
+
+}
+.ourServices{
+    text-align: center;
+    font-size: 50px;
+    padding: 33px;
+    color: white;
+}
+.mainservices{
+    display: flex;
+    justify-content: space-around;
+}
+.serbox{
+    width: 220px;
+    height: 220px;
+    padding: 50px 12px 88px 12px ;
+    background-color: #282727;
+    color: white;
+    text-align: center;
+    
+}
+.boximg{
+    width: 100px;
+    height: 80px;
+}
 
