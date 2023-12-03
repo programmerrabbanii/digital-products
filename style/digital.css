@@ -25,3 +25,30 @@
 }
 /* navber section  end  */
 /* bannar section start */
+.bannarimg{
+    width: 300px;
+}
+.bannarcontainer{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("../img/background.png"), linear-gradient(#191717, #000);
+}
+.exploer{
+    background-color: red;
+    color: white;
+    padding: 12px 19px ;
+    margin-top: 19px;
+    
+}
+.bannar-text h2{
+    font-size: 44px;
+    line-height:50px ;
+    margin-bottom: 15px;
+}
+.bannar-text p{
+    font-size: 1;
+}
+
